@@ -1,0 +1,298 @@
+{
+  "generated_utc": "2026-11-15T12:35:27.644802+00:00",
+  "archive": "NYAMIST_LOGIC_PARTS_DETAILED_20261115.zip",
+  "archive_bytes": 43035,
+  "archive_sha256": "457e28834ae2b06e12eeadd82d3b0ae0c22ae9fb54a3afe38657e16966be4543",
+  "entries": 27,
+  "txt_files": [
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/01_extract_ceto_fourier_programs_DETAILED.txt",
+      "bytes": 1898,
+      "lines": 68,
+      "sha256": "e505ad99ab372eef8e2033470ae78c1810748eb9e633dd417a89a25ddbd8be36",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/02_extract_fourier_gpu_il_DETAILED.txt",
+      "bytes": 1561,
+      "lines": 54,
+      "sha256": "b7a56844e5134c909590e0335a480b173313bcb29cc27a11ee4d27013b3cf866",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/03_extract_fourier_support_DETAILED.txt",
+      "bytes": 2153,
+      "lines": 80,
+      "sha256": "1f1db8e8c78ebbace224f974d6b5eb2bc974d2f34fc49ed59586c0a6ac87d739",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/04_inspect_ceto_fourier_program_table_DETAILED.txt",
+      "bytes": 1651,
+      "lines": 62,
+      "sha256": "2c3c8f1434479ab13442000e37604b85d32cb44fb8060f02f18c6d1bb97cf368",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/05_resolve_fourier_gpu_tokens_DETAILED.txt",
+      "bytes": 3144,
+      "lines": 122,
+      "sha256": "a85e33c4a5acf428ffdfa88a9a00b32da46a9341e45ef4a0b1d53b790e0e74ad",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/06_resolve_fourier_support_tokens_DETAILED.txt",
+      "bytes": 3160,
+      "lines": 122,
+      "sha256": "b8b4dc26a37e1dba46550c0586b60dadeb34bf39a8fa7c238f4e83e7fa5b1aaf",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/07_split_ceto_fourier_stages_DETAILED.txt",
+      "bytes": 1624,
+      "lines": 65,
+      "sha256": "01ac3eda7b1d4249b9359c6471c74aa0e9f0214e97d6c3b6ecad8c0e206d09c3",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/08_split_ceto_fourier_stages_v2_DETAILED.txt",
+      "bytes": 1841,
+      "lines": 76,
+      "sha256": "7da63ec3dd3a86392e55a58aaae0a41071b2229dd18c7b72996ca70b5bfce7c1",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/09_test_ceto_fourier_decompression_DETAILED.txt",
+      "bytes": 1206,
+      "lines": 46,
+      "sha256": "25ccd4de34450b07bb01359eafd52759afe84f86c266f1850a3cb144325003d3",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/10_extract_ceto_fourier_programs_DETAILED.txt",
+      "bytes": 1918,
+      "lines": 68,
+      "sha256": "7f6d948a64f74f160292d88edab466bec0b5d25d9366d8437a9106012ff12b95",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/11_extract_fourier_gpu_il_DETAILED.txt",
+      "bytes": 1581,
+      "lines": 54,
+      "sha256": "a96d6c78cdafcae3bccd6bf63f9cf504ec417cb33e7cc331eee49d7d01b70848",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/12_extract_fourier_support_DETAILED.txt",
+      "bytes": 2173,
+      "lines": 80,
+      "sha256": "3fc2f9cb67b133568f6b0e21b7e7a33c80d1a93bc09c89a5efae7cdcd93de806",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/13_inspect_ceto_fourier_program_table_DETAILED.txt",
+      "bytes": 1671,
+      "lines": 62,
+      "sha256": "b62c239be71a3faf647cb6dd3113f5a1b0650b31623d38ea68ffbb544719d888",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/14_resolve_fourier_gpu_tokens_DETAILED.txt",
+      "bytes": 3164,
+      "lines": 122,
+      "sha256": "c042d728c83ceef512bff025fc3b20e510ae9b75d7127341d7b347c632f70c0e",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/15_resolve_fourier_support_tokens_DETAILED.txt",
+      "bytes": 3180,
+      "lines": 122,
+      "sha256": "22cb2693266f43699b8f91fd23535e9505e16b229e53b6959f14de30183c0a6b",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/16_split_ceto_fourier_stages_DETAILED.txt",
+      "bytes": 1644,
+      "lines": 65,
+      "sha256": "29e69a75666accdda8a6e8c198a1ab50f2425458bdbaf6e53f062d597997186b",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/17_split_ceto_fourier_stages_v2_DETAILED.txt",
+      "bytes": 1861,
+      "lines": 76,
+      "sha256": "5d9862ab580f3c3976ae128ef652bed9d87889ea85c1d8c9d234c770034e9017",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/18_test_ceto_fourier_decompression_DETAILED.txt",
+      "bytes": 1226,
+      "lines": 46,
+      "sha256": "3966f61115fa20d24778023def85d742f28d8eef5e4bd653453ffd6b1e93b250",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/19_pinvoke_stage3_scan_DETAILED.txt",
+      "bytes": 4761,
+      "lines": 147,
+      "sha256": "4f786204980d9bc642a1fdf7aa742f705d0bea07d0bef8429f264b59b839bd8f",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/20_pinvoke_stage3_scan_fixed_DETAILED.txt",
+      "bytes": 6969,
+      "lines": 197,
+      "sha256": "77df20515fea5c4a78b0844ed3b0936a0176077665fdb44685e0bd7080a19585",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/21_UltimateEnginePipeline_DETAILED.txt",
+      "bytes": 7345,
+      "lines": 205,
+      "sha256": "f7e09d7e66bba324c9da9fa78b2e2e12b0ae1dc8010cedea7212acc668681e70",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/22_UltimateEnginePipeline_v3_DETAILED.txt",
+      "bytes": 7728,
+      "lines": 203,
+      "sha256": "64ab4321c15b57e7aeb82204db4abf78df88880e638f9fbfd3a1cabc24a2779e",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/23_nyamist_world_audit_DETAILED.txt",
+      "bytes": 3745,
+      "lines": 97,
+      "sha256": "841c1cd42b905e7e77949f5e41e2136cddba15a6e265b055865e32e7df5d1682",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/24_pinvoke_stage3_scan_DETAILED.txt",
+      "bytes": 4741,
+      "lines": 147,
+      "sha256": "c78e777bbc3498635a984217aa3150ccaae401169b749c967cb23df2cbd2216d",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/25_pinvoke_stage3_scan_fixed_DETAILED.txt",
+      "bytes": 6949,
+      "lines": 197,
+      "sha256": "6d574cfd931232c2c080028e82f50ba463545c6c8c869d2cc360242a3c63421c",
+      "excerpt": true,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/INDEX.txt",
+      "bytes": 2339,
+      "lines": 28,
+      "sha256": "5a98b8692371f393eccae2f56e5d5f40f619b43c33eb9e6853a4c9bbe205653a",
+      "excerpt": false,
+      "limitation_notice": false
+    },
+    {
+      "path": "NYAMIST_LOGIC_PARTS_DETAILED/SHA256_MANIFEST.txt",
+      "bytes": 2801,
+      "lines": 26,
+      "sha256": "a3f2dee5b85a50efe59b7e855cab45208b619857b4bb02f2acbc8463cec7e55d",
+      "excerpt": false,
+      "limitation_notice": false
+    }
+  ],
+  "non_txt_files": [],
+  "duplicate_basenames": {},
+  "unsafe_paths": [],
+  "crc_error": null,
+  "phase_evidence": [
+    {
+      "phase": "1. Full Logic Mapping",
+      "matched_topics": [
+        "import",
+        "function",
+        "class",
+        "control flow",
+        "ceto",
+        "fourier",
+        "shader",
+        "ocean",
+        "pinvoke",
+        "unitypy"
+      ],
+      "status": "PARTIAL — static summary references only; source/runtime verification required"
+    },
+    {
+      "phase": "2. APK Editor Architecture Mapping",
+      "matched_topics": [
+        "apk",
+        "android",
+        "native",
+        "vulkan",
+        "engine"
+      ],
+      "status": "PARTIAL — static summary references only; source/runtime verification required"
+    },
+    {
+      "phase": "3. Compatibility and Bridge Design",
+      "matched_topics": [
+        "compatib",
+        "texture",
+        "shader"
+      ],
+      "status": "PARTIAL — static summary references only; source/runtime verification required"
+    },
+    {
+      "phase": "4. Full Logic Integration",
+      "matched_topics": [
+        "pipeline",
+        "render",
+        "fourier",
+        "fft",
+        "mesh",
+        "scene"
+      ],
+      "status": "PARTIAL — static summary references only; source/runtime verification required"
+    },
+    {
+      "phase": "5. Testing, Optimization & Final APK",
+      "matched_topics": [
+        "test",
+        "pass",
+        "fail",
+        "device",
+        "build",
+        "apk",
+        "runtime",
+        "sha256"
+      ],
+      "status": "PARTIAL — static summary references only; source/runtime verification required"
+    }
+  ],
+  "limitations": [
+    "These are AST-generated static summaries, not original source files.",
+    "Keyword matches are evidence pointers only, not proof of execution or integration.",
+    "APK runtime, Vulkan pipeline compatibility and target-device behavior remain unverified."
+  ]
+}
