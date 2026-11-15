@@ -1,0 +1,63 @@
+name: Read-GPT archive audit
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "reports/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: read-gpt-archive-audit-\${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout latest commit
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit source archives
+        id: audit
+        shell: bash
+        run: |
+          set +e
+          python tools/read_gpt_archive_audit.py
+          status=$?
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit audit output to repository
+        if: always()
+        shell: bash
+        run: |
+          if [ -d reports ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reports/read_gpt_archive_audit.md reports/read_gpt_archive_audit.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Update automated archive audit report"
+              git push origin HEAD:main
+            else
+              echo "Audit report unchanged; no report commit needed."
+            fi
+          fi
+
+      - name: Fail workflow when audit checks fail
+        if: steps.audit.outputs.status != '0'
+        run: |
+          echo "Archive audit checks failed. See reports/read_gpt_archive_audit.md"
+          exit 1
