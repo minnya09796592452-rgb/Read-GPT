@@ -1,0 +1,244 @@
+{
+  "generated_utc": "2026-11-15T11:21:44.259758+00:00",
+  "repository": "minnya09796592452-rgb/Read-GPT",
+  "branch_scope": "main",
+  "read_only": true,
+  "archives": [
+    {
+      "name": "Read.zip",
+      "present": true,
+      "size_bytes": 2106592,
+      "sha256": "d5b81909be29a74fb0e2fd2ca40c21f60cfbc94fd075687a7cbf9a468faf632e",
+      "entries": 300,
+      "files": 194,
+      "directories": 106,
+      "uncompressed_bytes": 2047860,
+      "extensions": {
+        ".csv": 2,
+        ".glsl": 9,
+        ".idx": 1,
+        ".md": 3,
+        ".pack": 1,
+        ".py": 9,
+        ".rev": 1,
+        ".sample": 14,
+        ".spv": 9,
+        ".txt": 30,
+        "[no extension]": 115
+      },
+      "crc_errors": [],
+      "unsafe_paths": [],
+      "sample_paths": [
+        "Read/",
+        "Read/.git/",
+        "Read/.git/COMMIT_EDITMSG",
+        "Read/.git/FETCH_HEAD",
+        "Read/.git/HEAD",
+        "Read/.git/ORIG_HEAD",
+        "Read/.git/config",
+        "Read/.git/description",
+        "Read/.git/hooks/",
+        "Read/.git/hooks/applypatch-msg.sample",
+        "Read/.git/hooks/commit-msg.sample",
+        "Read/.git/hooks/fsmonitor-watchman.sample",
+        "Read/.git/hooks/post-update.sample",
+        "Read/.git/hooks/pre-applypatch.sample",
+        "Read/.git/hooks/pre-commit.sample",
+        "Read/.git/hooks/pre-merge-commit.sample",
+        "Read/.git/hooks/pre-push.sample",
+        "Read/.git/hooks/pre-rebase.sample",
+        "Read/.git/hooks/pre-receive.sample",
+        "Read/.git/hooks/prepare-commit-msg.sample",
+        "Read/.git/hooks/push-to-checkout.sample",
+        "Read/.git/hooks/sendemail-validate.sample",
+        "Read/.git/hooks/update.sample",
+        "Read/.git/index",
+        "Read/.git/info/",
+        "Read/.git/info/exclude",
+        "Read/.git/logs/",
+        "Read/.git/logs/HEAD",
+        "Read/.git/logs/refs/",
+        "Read/.git/logs/refs/heads/"
+      ],
+      "special_checks": {
+        "glsl_files": 9,
+        "spv_files": 9,
+        "spv_magic_valid": 9,
+        "spv_details": [
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_0_fragment_vk.spv",
+            "bytes": 2368,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_0_vertex_vk.spv",
+            "bytes": 2520,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_1_fragment_vk.spv",
+            "bytes": 2396,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_2_fragment_vk.spv",
+            "bytes": 3608,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_3_fragment_vk.spv",
+            "bytes": 3636,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_4_fragment_vk.spv",
+            "bytes": 4712,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_5_fragment_vk.spv",
+            "bytes": 4740,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_6_fragment_vk.spv",
+            "bytes": 5760,
+            "magic_ok": true
+          },
+          {
+            "path": "Read/ceto/shaders_2026-11-13/entry_7_fragment_vk.spv",
+            "bytes": 5788,
+            "magic_ok": true
+          }
+        ],
+        "python_files": 9
+      }
+    },
+    {
+      "name": "Read_Original_Logic.zip",
+      "present": true,
+      "size_bytes": 17154199,
+      "sha256": "886bc9e98c7865b2283b2e3e4cdbb4bfde86a8c074bb504e64ecacaa7b9d6a97",
+      "entries": 16,
+      "files": 16,
+      "directories": 0,
+      "uncompressed_bytes": 17151733,
+      "extensions": {
+        ".md": 1,
+        ".mp4": 1,
+        ".py": 2,
+        ".txt": 12
+      },
+      "crc_errors": [],
+      "unsafe_paths": [],
+      "sample_paths": [
+        "K80Ultra-Full-Hardware.txt",
+        "NYAMIST_0zip_3txt_audit.md",
+        "PINVOKE_STAGE3_AGGREGATION_20261114.txt",
+        "PInvoke_SHA256_MANIFEST.txt",
+        "STAGE4_EOS_TARGETED_SCREEN_SUMMARY.txt",
+        "Screenrecorder-2026-11-15-11-21-48-658.mp4",
+        "pinvoke_stage3_scan.py",
+        "pinvoke_stage3_scan_fixed.py",
+        "text 1.txt",
+        "text 2.txt",
+        "text 3.txt",
+        "text 4.txt",
+        "text 5.txt",
+        "text 6.txt",
+        "text 7.txt",
+        "text.txt"
+      ],
+      "special_checks": {
+        "apk_payload_files": [],
+        "sha256_manifest_files": [
+          "PInvoke_SHA256_MANIFEST.txt"
+        ],
+        "python_files": 2,
+        "video_files": 1
+      }
+    },
+    {
+      "name": "NYAMIST_ONEHIT_REPORTS.zip",
+      "present": true,
+      "size_bytes": 134796,
+      "sha256": "33ec68093b62419364d3178c76311893bd9c4e98d2defcfa292c889c09344b59",
+      "entries": 5,
+      "files": 5,
+      "directories": 0,
+      "uncompressed_bytes": 133724,
+      "extensions": {
+        ".csv": 4,
+        ".txt": 1
+      },
+      "crc_errors": [],
+      "unsafe_paths": [],
+      "sample_paths": [
+        "NYAMIST_DEEP_ONEHIT_20261115_161102.txt",
+        "NYAMIST_DEEP_ONEHIT_20261115_161102_ERRORS.csv",
+        "NYAMIST_DEEP_ONEHIT_20261115_161102_MANAGED_MANIFEST.csv",
+        "NYAMIST_DEEP_ONEHIT_20261115_161102_ORIGINAL.csv",
+        "NYAMIST_DEEP_ONEHIT_20261115_161102_WORLD_CANDIDATES.csv"
+      ],
+      "special_checks": {
+        "csv_files": {
+          "NYAMIST_DEEP_ONEHIT_20261115_161102_ERRORS.csv": {
+            "rows_excluding_header": 0,
+            "header": [
+              "scope",
+              "path",
+              "error"
+            ]
+          },
+          "NYAMIST_DEEP_ONEHIT_20261115_161102_MANAGED_MANIFEST.csv": {
+            "rows_excluding_header": 119,
+            "header": [
+              "status",
+              "manifest_relative_path",
+              "expected_sha256",
+              "original_hash_status",
+              "original_sha256",
+              "original_bytes",
+              "world_hash_candidates",
+              "world_exact_candidates",
+              "world_exact_path",
+              "note"
+            ]
+          },
+          "NYAMIST_DEEP_ONEHIT_20261115_161102_ORIGINAL.csv": {
+            "rows_excluding_header": 217,
+            "header": [
+              "status",
+              "original_path",
+              "filename",
+              "bytes",
+              "sha256",
+              "world_exact_match",
+              "original_alias_count",
+              "world_candidate_count",
+              "world_exact_count",
+              "alias_integrity"
+            ]
+          },
+          "NYAMIST_DEEP_ONEHIT_20261115_161102_WORLD_CANDIDATES.csv": {
+            "rows_excluding_header": 347,
+            "header": [
+              "sha256",
+              "bytes",
+              "world_path",
+              "byte_result",
+              "difference_offset_or_error"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "checks": {
+    "all_expected_archives_present": true,
+    "all_zip_crc_checks_clean": true,
+    "no_unsafe_archive_paths": true,
+    "all_spirv_headers_valid": true
+  },
+  "overall": "PASS"
+}
