@@ -1,6 +1,6 @@
 # Read-GPT Archive Audit
 
-- Generated UTC: 2026-11-16T02:32:07.679406+00:00
+- Generated UTC: 2026-11-16T02:32:24.598798+00:00
 - Scope: latest checked-out main commit
 - Source archives: read-only; no extraction or modification
 - Overall: **PASS**
