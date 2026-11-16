@@ -1,0 +1,3 @@
+/storage/emulated/0/Download/Stranded Deep/MonoBleedingEdge
+/storage/emulated/0/Download/Stranded Deep/Stranded_Deep_Data/Managed
+/storage/emulated/0/Download/Stranded Deep/Stranded_Deep_Data/Plugins
