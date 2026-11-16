@@ -1,0 +1,56 @@
+name: APK-first pipeline alignment audit
+
+on:
+  push:
+    branches:
+      - ci/apk-first-pipeline-alignment
+    paths:
+      - 'CastawayDepths_*.apk'
+      - 'Read.zip'
+      - 'tools/apk_first_pipeline_alignment.py'
+      - '.github/workflows/apk-first-pipeline-alignment.yml'
+  pull_request:
+    paths:
+      - 'CastawayDepths_*.apk'
+      - 'Read.zip'
+      - 'tools/apk_first_pipeline_alignment.py'
+      - '.github/workflows/apk-first-pipeline-alignment.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: apk-first-alignment-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-apk-compatibility:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout tested revision
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile audit tool
+        run: python -m py_compile tools/apk_first_pipeline_alignment.py
+
+      - name: Inspect APKs and preserve original shader interface inventory
+        run: >-
+          python tools/apk_first_pipeline_alignment.py
+          --repo-root .
+          --output reports/apk_first_pipeline_alignment.json
+
+      - name: Upload static compatibility report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: apk-first-pipeline-alignment-${{ github.run_number }}
+          path: reports/apk_first_pipeline_alignment.json
+          if-no-files-found: warn
+          retention-days: 30
